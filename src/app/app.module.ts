@@ -13,6 +13,7 @@ import { RulegenComponent } from './component/rulegen/rulegen.component';
 
 import { Rule } from './model/rule';
 import { MatTableModule } from '@angular/material/table';
+import { NavbarComponent } from './navbar/navbar.component';
 //import { UserComponent } from './user/user.component';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { MatTableModule } from '@angular/material/table';
     LoginComponent,
     HomeComponent,
     RulegenComponent,
+    NavbarComponent,
     
   ],
   imports: [
